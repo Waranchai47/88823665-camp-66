@@ -14,168 +14,171 @@
 
 </head>
 
+<body>
 
-<style>
-    form {
-        font-family: "Kanit", sans-serif;
-        font-weight: 500;
-        font-style: normal;
-        font-size: 15px;
-        color: rgb(255, 255, 255);
-        background-color: rgb(214, 142, 232);
-    }
+    <style>
+        form {
+            font-family: "Kanit", sans-serif;
+            font-weight: 500;
+            font-style: normal;
+            font-size: 15px;
+            color: rgb(255, 255, 255);
+            background-color: rgb(214, 142, 232);
+        }
 
-    input:focus[type="text"] {
-        border-color: rgb(30, 255, 128);
-        /* กรอบเปลี่ยนเป็นสีเขียว */
-        box-shadow: 0 0 5px rgb(0, 0, 0);
-        /* เพิ่มเงา */
-    }
+        input:focus[type="text"] {
+            border-color: rgb(30, 255, 128);
+            /* กรอบเปลี่ยนเป็นสีเขียว */
+            box-shadow: 0 0 5px rgb(0, 0, 0);
+            /* เพิ่มเงา */
+        }
 
-    button:hover {
-        background-color: rgb(239, 67, 136);
-        /* สีพื้นหลังเมื่อ hover */
-        color: rgb(255, 255, 255);
-        /* เปลี่ยนสีข้อความ */
+        button:hover {
+            background-color: rgb(239, 67, 136);
+            /* สีพื้นหลังเมื่อ hover */
+            color: rgb(255, 255, 255);
+            /* เปลี่ยนสีข้อความ */
 
-    }
-</style>
-
-
+        }
+    </style>
 
 
-<form>
 
-    <table>
-        <tr>
-            <td>ชื่อ</td>
-            <td></td>
-            <td><input type="text" id="fname" name="fname"></td>
-        </tr>
 
-        <tr>
-            <td>นามสกุล</td>
-            <td></td>
-            <td><input type="text" id="fname" name="fname"></td>
-        </tr>
+    <form>
 
-        <tr>
-            <td>วัน/เดือน/ปี</td>
-            <td></td>
-            <td><input type="date" value="check me!"></td>
-        </tr>
+        <table>
+            <tr>
+                <td>ชื่อ</td>
+                <td></td>
+                <td><input type="text" id="fname" name="fname"></td>
+            </tr>
 
-        <tr>
-            <td>อายุ</td>
-            <td></td>
-            <td><input type="text" id="fname" name="fname"></td>
-        </tr>
+            <tr>
+                <td>นามสกุล</td>
+                <td></td>
+                <td><input type="text" id="fname" name="fname"></td>
+            </tr>
 
-        <tr>
-            <td>เพศ</td>
-            <td></td>
-            <td>
-                <input type="radio">
-                ชาย
-                <input type="radio">
-                หญิง
-            </td>
-        </tr>
+            <tr>
+                <td>วัน/เดือน/ปี</td>
+                <td></td>
+                <td><input type="date" value="check me!"></td>
+            </tr>
 
-        <tr>
-            <td>รูป</td>
-            <td></td>
-            <td><input type="file"></td>
-        </tr>
+            <tr>
+                <td>อายุ</td>
+                <td></td>
+                <td><input type="text" id="fname" name="fname"></td>
+            </tr>
 
-        <tr>
-            <td>ที่อยู่</td>
-            <td></td>
-            <td><textarea rows="4" cols="40"></textarea></td>
-        </tr>
+            <tr>
+                <td>เพศ</td>
+                <td></td>
+                <td>
+                    <input type="radio">
+                    ชาย
+                    <input type="radio">
+                    หญิง
+                </td>
+            </tr>
 
-        <tr>
-            <td>สีที่ชอบ</td>
-            <td></td>
-            <td><select id="color" name="color" size="1">
-                    <option value="red">สีเเดง</option>
-                    <option value="orange">สีส้ม</option>
-                    <option value="black">สีดำ</option>
-                    <option value="blue">สีน้ำเงิน</option>
-                    <option value="pink">สีชมพู</option>
-                </select>
-            </td>
-        </tr>
+            <tr>
+                <td>รูป</td>
+                <td></td>
+                <td><input type="file"></td>
+            </tr>
 
-        <tr>
-            <td>เเนวเพลงที่ชอบ</td>
-            <td></td>
-            <td>
-                <input type="radio">
-                เพื่อชีวิต
-                <input type="radio">
-                ลูกทุ่ง
-                <input type="radio">
-                อื่นๆ
-            </td>
-        </tr>
-    </table><br>
+            <tr>
+                <td>ที่อยู่</td>
+                <td></td>
+                <td><textarea rows="4" cols="40"></textarea></td>
+            </tr>
 
-    <table>
-        <tr>
-            <td><input type="checkbox">
-                ยินยอมให้เก็บข้อมูล
-            </td>
-        </tr>
-    </table><br>
+            <tr>
+                <td>สีที่ชอบ</td>
+                <td></td>
+                <td><select id="color" name="color" size="1">
+                        <option value="red">สีเเดง</option>
+                        <option value="orange">สีส้ม</option>
+                        <option value="black">สีดำ</option>
+                        <option value="blue">สีน้ำเงิน</option>
+                        <option value="pink">สีชมพู</option>
+                    </select>
+                </td>
+            </tr>
 
-    <table>
-        <tr>
-            <td>
-                <button type="reset">Reset</button>
-            </td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td><button type="submit">Submit</button>
-            </td>
-        </tr>
-    </table>
+            <tr>
+                <td>เเนวเพลงที่ชอบ</td>
+                <td></td>
+                <td>
+                    <input type="radio">
+                    เพื่อชีวิต
+                    <input type="radio">
+                    ลูกทุ่ง
+                    <input type="radio">
+                    อื่นๆ
+                </td>
+            </tr>
+        </table><br>
 
-</form>
+        <table>
+            <tr>
+                <td><input type="checkbox">
+                    ยินยอมให้เก็บข้อมูล
+                </td>
+            </tr>
+        </table><br>
+
+        <table>
+            <tr>
+                <td>
+                    <button type="reset">Reset</button>
+                </td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td><button type="submit">Submit</button>
+                </td>
+            </tr>
+        </table>
+
+    </form>
+    <img src="MyPhoto\PIXEL ON YOU, PIXEL ON YOUR COW.gif" alt="illustration">
+</body>
