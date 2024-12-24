@@ -6,6 +6,8 @@ form {
     color: rgb(34, 22, 46);
 
     input[type="text"]:focus {
-        border-color: green;
+        border-color: rgb(86, 199, 255);
     }
+
+
 }
