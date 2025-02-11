@@ -12,7 +12,7 @@ Route::get('/login',
 Route::get('/home',
 [HomeController::class,'index']);
 
-Route::get('/legister',
+Route::get('/register',
 [RegisterController::class,'index']);
 
 Route::get('/',
