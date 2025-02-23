@@ -1,7 +1,7 @@
 @extends('layouts.default')
 
 @section('content')
-<div class = 'login-page'>
+<div class="login-page">
 <div class="login-box">
     <div class="login-logo">
       <a href="../index2.html"><b>Admin</b>LTE</a>
@@ -11,11 +11,11 @@
       <div class="card-body login-card-body">
         <p class="login-box-msg">Sign in to start your session</p>
         <form action="../index3.html" method="post">
-          <div class="mb-3 input-group">
+          <div class="input-group mb-3">
             <input type="email" class="form-control" placeholder="Email" />
             <div class="input-group-text"><span class="bi bi-envelope"></span></div>
           </div>
-          <div class="mb-3 input-group">
+          <div class="input-group mb-3">
             <input type="password" class="form-control" placeholder="Password" />
             <div class="input-group-text"><span class="bi bi-lock-fill"></span></div>
           </div>
@@ -29,7 +29,7 @@
             </div>
             <!-- /.col -->
             <div class="col-4">
-              <div class="gap-2 d-grid">
+              <div class="d-grid gap-2">
                 <button type="submit" class="btn btn-primary">Sign In</button>
               </div>
             </div>
@@ -37,7 +37,7 @@
           </div>
           <!--end::Row-->
         </form>
-        <div class="gap-2 mb-3 text-center social-auth-links d-grid">
+        <div class="social-auth-links text-center mb-3 d-grid gap-2">
           <p>- OR -</p>
           <a href="#" class="btn btn-primary">
             <i class="bi bi-facebook me-2"></i> Sign in using Facebook
@@ -54,7 +54,4 @@
       </div>
       <!-- /.login-card-body -->
     </div>
-  </div>
-</div>
 @endsection
-

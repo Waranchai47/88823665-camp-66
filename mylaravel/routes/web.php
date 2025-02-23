@@ -18,6 +18,9 @@ Route::get('/register',
 Route::get('/',
 [HomeController::class,'index']);
 
+Route::post('/register',
+[RegisterController::class,'create']);
+
 Route::get('/mycontroller/{id?}',
     [MyController::class,'myfunction']);
 
