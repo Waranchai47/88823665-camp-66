@@ -36,13 +36,13 @@
 <body class="register-page bg-body-secondary">
     <div class="register-box">
         <div class="register-logo">
-            <a href="../index2.html"><b>Admin</b>LTE</a>
+            <a href="../index2.html"><b>Edit</b>User</a>
         </div>
         <!-- /.register-logo -->
         <div class="card">
             <div class="card-body register-card-body">
-                <p class="register-box-msg">Register a new membership</p>
-                <form action="{{ url('/register') }}" method="post">
+                <p class="register-box-msg">Edit User</p>
+                <form action="{{ url('/user') }}" method="post">
                     @csrf
                     <div class="mb-3 input-group">
                         <input type="text" name="name"class="form-control" placeholder="Full Name" />
